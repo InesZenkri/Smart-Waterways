@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BC27495C6C86373D5A95E1 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A5C051ED227800015B5E /* EmptyStateView.swift */; };
+		5C6A4D22BEE49BB294607538 /* HomeView+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646FDB44FC33DF4B5CC78C6 /* HomeView+Components.swift */; };
+		5F63C12ADAEF8E426636749B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE49E01E63BA958AAC8E786 /* HomeView.swift */; };
+		6BAD91EA2A5FAD31F77B2221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9AD6103C0A4EA645726780 /* Assets.xcassets */; };
+		765A99DDF251A1ABD49D9C2E /* WaterFlowBerlinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CC19A09E36F96F5BE45D55 /* WaterFlowBerlinApp.swift */; };
+		83AB748B0042721D08EAE85D /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C34E18B91F0C9382B384A /* Trip.swift */; };
+		9B4E8A259F74B1B014CD7F21 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBB83801257BCC9DB8E1F0 /* TripCard.swift */; };
+		A666A8AB3BF926EDDACA3780 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14033F57902529D9797A9AD /* TripViewModel.swift */; };
+		A965DDDD2EBFC555004C8460 /* WaterbodyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965DDDC2EBFC555004C8460 /* WaterbodyValidator.swift */; };
+		A965DDDF2EBFC5CC004C8460 /* WaterRoutePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965DDDE2EBFC5CC004C8460 /* WaterRoutePlanner.swift */; };
+		C3D3EBF10951824033655838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E8302A2B83D0A130118D4A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2646FDB44FC33DF4B5CC78C6 /* HomeView+Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView+Components.swift"; sourceTree = "<group>"; };
+		33E625C7E326080F5B3E27D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3BE49E01E63BA958AAC8E786 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4BA7A5C051ED227800015B5E /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		4EFE09630DCA228E4A434EA4 /* WaterFlow Berlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WaterFlow Berlin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A1D82ACA36960F994EF393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92CC19A09E36F96F5BE45D55 /* WaterFlowBerlinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFlowBerlinApp.swift; sourceTree = "<group>"; };
+		9B9AD6103C0A4EA645726780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CBB83801257BCC9DB8E1F0 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		A14033F57902529D9797A9AD /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		A965DDDC2EBFC555004C8460 /* WaterbodyValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterbodyValidator.swift; sourceTree = "<group>"; };
+		A965DDDE2EBFC5CC004C8460 /* WaterRoutePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterRoutePlanner.swift; sourceTree = "<group>"; };
+		AF3C34E18B91F0C9382B384A /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00908EF86B3E91797AAF076B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE09630DCA228E4A434EA4 /* WaterFlow Berlin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035E25FD4B22046FF080EB71 /* build-zone */ = {
+			isa = PBXGroup;
+			children = (
+				9B9AD6103C0A4EA645726780 /* Assets.xcassets */,
+				33E625C7E326080F5B3E27D2 /* Info.plist */,
+				C5E8302A2B83D0A130118D4A /* LaunchScreen.storyboard */,
+				92CC19A09E36F96F5BE45D55 /* WaterFlowBerlinApp.swift */,
+				801B76E3F5C498D99238F010 /* Models */,
+				D82F5CCA4A1EFA45DF5A9E9D /* Services */,
+				895658CF39004EDBEC84A372 /* ViewModels */,
+				C52CF49C9D1E6A6180194B44 /* Views */,
+			);
+			path = "build-zone";
+			sourceTree = "<group>";
+		};
+		386DA950C4F228029679CC7C = {
+			isa = PBXGroup;
+			children = (
+				035E25FD4B22046FF080EB71 /* build-zone */,
+				00908EF86B3E91797AAF076B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801B76E3F5C498D99238F010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C34E18B91F0C9382B384A /* Trip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		895658CF39004EDBEC84A372 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A14033F57902529D9797A9AD /* TripViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D82F5CCA4A1EFA45DF5A9E9D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A965DDDC2EBFC555004C8460 /* WaterbodyValidator.swift */,
+				A965DDDE2EBFC5CC004C8460 /* WaterRoutePlanner.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		93319FFB541C1C4B5273B344 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4BA7A5C051ED227800015B5E /* EmptyStateView.swift */,
+				A0CBB83801257BCC9DB8E1F0 /* TripCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C52CF49C9D1E6A6180194B44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BE49E01E63BA958AAC8E786 /* HomeView.swift */,
+				2646FDB44FC33DF4B5CC78C6 /* HomeView+Components.swift */,
+				93319FFB541C1C4B5273B344 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CAF6F336983325720D5428 /* build-zone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476FBAB2251992FEE6E6AFF /* Build configuration list for PBXNativeTarget "build-zone" */;
+			buildPhases = (
+				919D08D341D52758C65FAEA2 /* Sources */,
+				956E4AEE32835B745A6B8522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "build-zone";
+			packageProductDependencies = (
+			);
+			productName = "build-zone";
+			productReference = 4EFE09630DCA228E4A434EA4 /* WaterFlow Berlin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09CE427807BB55DEF2595D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 955AC608CA15D96E9B9B8EF3 /* Build configuration list for PBXProject "build-zone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 386DA950C4F228029679CC7C;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CAF6F336983325720D5428 /* build-zone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956E4AEE32835B745A6B8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAD91EA2A5FAD31F77B2221 /* Assets.xcassets in Resources */,
+				C3D3EBF10951824033655838 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919D08D341D52758C65FAEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BC27495C6C86373D5A95E1 /* EmptyStateView.swift in Sources */,
+				5C6A4D22BEE49BB294607538 /* HomeView+Components.swift in Sources */,
+				A965DDDD2EBFC555004C8460 /* WaterbodyValidator.swift in Sources */,
+				5F63C12ADAEF8E426636749B /* HomeView.swift in Sources */,
+				83AB748B0042721D08EAE85D /* Trip.swift in Sources */,
+				9B4E8A259F74B1B014CD7F21 /* TripCard.swift in Sources */,
+				A666A8AB3BF926EDDACA3780 /* TripViewModel.swift in Sources */,
+				765A99DDF251A1ABD49D9C2E /* WaterFlowBerlinApp.swift in Sources */,
+				A965DDDF2EBFC5CC004C8460 /* WaterRoutePlanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5E8302A2B83D0A130118D4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80A1D82ACA36960F994EF393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6D970A5B3BDA50A64E001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXC7FSMV5F;
+				INFOPLIST_FILE = "build-zone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		7CC163B80742CAED98F88741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.waterflowberlin;
+				PRODUCT_NAME = "WaterFlow Berlin";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A5BDC3992A2A616C2C90B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.waterflowberlin;
+				PRODUCT_NAME = "WaterFlow Berlin";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B63A14F341F763BA0C7DD9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXC7FSMV5F;
+				INFOPLIST_FILE = "build-zone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0476FBAB2251992FEE6E6AFF /* Build configuration list for PBXNativeTarget "build-zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6D970A5B3BDA50A64E001D /* Debug */,
+				B63A14F341F763BA0C7DD9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		955AC608CA15D96E9B9B8EF3 /* Build configuration list for PBXProject "build-zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC163B80742CAED98F88741 /* Debug */,
+				9A5BDC3992A2A616C2C90B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09CE427807BB55DEF2595D8F /* Project object */;
+}
