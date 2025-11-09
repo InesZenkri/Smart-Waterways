@@ -29,6 +29,21 @@ An iOS application for planning and managing waterway trips in Berlin's rivers, 
 - 📍 **Trip Management**: Create, view, and delete trips with start/end points and timestamps
 - 🎨 **Modern UI**: Built with SwiftUI featuring smooth animations and intuitive interactions
 
+#### Demo & Screenshots
+
+**App Demo Video:**
+<div align="center">
+  <video width="600" controls>
+    <source src="app.MP4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+**Dashboard View:**
+<div align="center">
+  <img src="dash.png" alt="Berlin Waterways Dashboard" width="800">
+</div>
+
 #### Requirements
 
 - iOS 17.0 or later
