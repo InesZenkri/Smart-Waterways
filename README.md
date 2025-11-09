@@ -614,13 +614,6 @@ This project demonstrates:
 - Expanded analysis to more Berlin water bodies
 - User-contributed water quality observations
 
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
 
 ## Acknowledgments
 
