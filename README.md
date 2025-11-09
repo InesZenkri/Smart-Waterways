@@ -1,5 +1,9 @@
 # Smart Waterways
 
+<div align="center">
+  <img src="logo.png" alt="Smart Waterways Logo" width="300">
+</div>
+
 A comprehensive waterway monitoring and trip planning system for Berlin, combining an iOS mobile application with satellite-based water quality analysis and riparian vegetation monitoring.
 
 ## Overview
